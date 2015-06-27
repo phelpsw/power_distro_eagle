@@ -13,7 +13,6 @@ UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/41xx.lbr"
 UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/45xx.lbr"
 UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/74ac-logic.lbr"
 UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/74ttl-din.lbr"
-UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/74xx-eu.lbr"
 UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/74xx-little-de.lbr"
 UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/74xx-little-us.lbr"
 UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/74xx-us.lbr"
@@ -345,10 +344,17 @@ UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/zetex.lbr"
 UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/zilog.lbr"
+UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/custom/cui.lbr"
+UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/custom/littelfuse.lbr"
+UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/custom/df13.lbr"
+UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/custom/ti.lbr"
+UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/custom/pololu.lbr"
+UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/custom/switch.lbr"
+UsedLibrary="/home/pwilliams/.eagle-7.3.0/lbr/custom/jst.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="564 579 1163 978"
+Loc="433 269 1326 888"
 State=2
 Number=0
 
