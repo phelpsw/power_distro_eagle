@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,12 +43,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -1417,6 +1417,20 @@ Source: Samtec SSW.pdf</description>
 <text x="-5.08" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.08" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="1206">
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -1448,6 +1462,15 @@ Source: Samtec SSW.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="LORHO" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="30R160U">
@@ -1459,6 +1482,15 @@ Source: Samtec SSW.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LORHO" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1480,6 +1512,15 @@ Source: Samtec SSW.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="LORHO" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="30R250U">
@@ -1491,6 +1532,15 @@ Source: Samtec SSW.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LORHO" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9739,16 +9789,16 @@ Source: www.kingbright.com</description>
 <part name="J6" library="con-samtec" deviceset="SSW-116-02-S-T" device="RA"/>
 <part name="J9" library="con-samtec" deviceset="SSW-106-02-S-D" device="-RA"/>
 <part name="U1" library="cui" deviceset="VHE100W" device=""/>
-<part name="F1" library="littelfuse" deviceset="30R400U" device=""/>
-<part name="F2" library="littelfuse" deviceset="30R400U" device=""/>
-<part name="F3" library="littelfuse" deviceset="30R400U" device=""/>
-<part name="F4" library="littelfuse" deviceset="30R400U" device=""/>
-<part name="F5" library="littelfuse" deviceset="30R400U" device=""/>
-<part name="F6" library="littelfuse" deviceset="30R400U" device=""/>
-<part name="F7" library="littelfuse" deviceset="30R400U" device=""/>
-<part name="F8" library="littelfuse" deviceset="30R400U" device=""/>
-<part name="F30" library="littelfuse" deviceset="30R160U" device=""/>
-<part name="F29" library="littelfuse" deviceset="30R110U" device=""/>
+<part name="F1" library="littelfuse" deviceset="30R400U" device="LORHO" value="30R400ULORHO"/>
+<part name="F2" library="littelfuse" deviceset="30R400U" device="LORHO" value="30R400ULORHO"/>
+<part name="F3" library="littelfuse" deviceset="30R400U" device="LORHO" value="30R400ULORHO"/>
+<part name="F4" library="littelfuse" deviceset="30R400U" device="LORHO" value="30R400ULORHO"/>
+<part name="F5" library="littelfuse" deviceset="30R400U" device="LORHO" value="30R400ULORHO"/>
+<part name="F6" library="littelfuse" deviceset="30R400U" device="LORHO" value="30R400ULORHO"/>
+<part name="F7" library="littelfuse" deviceset="30R400U" device="LORHO" value="30R400ULORHO"/>
+<part name="F8" library="littelfuse" deviceset="30R400U" device="LORHO" value="30R400ULORHO"/>
+<part name="F30" library="littelfuse" deviceset="30R160U" device="LORHO" value="30R160ULORHO"/>
+<part name="F29" library="littelfuse" deviceset="30R110U" device="LORHO" value="30R110ULORHO"/>
 <part name="J5" library="df13" deviceset="DF13-6" device=""/>
 <part name="P+2" library="supply1" deviceset="V+" device=""/>
 <part name="P-2" library="supply1" deviceset="V-" device=""/>
@@ -9759,9 +9809,9 @@ Source: www.kingbright.com</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="F9" library="littelfuse" deviceset="30R400U" device=""/>
+<part name="F9" library="littelfuse" deviceset="30R400U" device="LORHO" value="30R400ULORHO"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
-<part name="F10" library="littelfuse" deviceset="30R110U" device=""/>
+<part name="F10" library="littelfuse" deviceset="30R110U" device="LORHO" value="30R110ULORHO"/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
@@ -9785,7 +9835,7 @@ Source: www.kingbright.com</description>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="J3" library="df13" deviceset="DF13-6" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="F28" library="littelfuse" deviceset="30R110U" device=""/>
+<part name="F28" library="littelfuse" deviceset="30R110U" device="LORHO" value="30R110ULORHO"/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="F11" library="littelfuse" deviceset="30R250U" device=""/>
 <part name="P+12" library="supply1" deviceset="+24V" device=""/>
@@ -9828,7 +9878,7 @@ Source: www.kingbright.com</description>
 <part name="P+3" library="supply1" deviceset="V+" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="F12" library="littelfuse" deviceset="30R250U" device=""/>
+<part name="F12" library="littelfuse" deviceset="30R250U" device="LORHO" value="30R250ULORHO"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
 <part name="F16" library="littelfuse" deviceset="30R250U" device=""/>
@@ -9837,12 +9887,12 @@ Source: www.kingbright.com</description>
 <part name="P+29" library="supply1" deviceset="+5V" device=""/>
 <part name="R15" library="rcl" deviceset="R-US_" device="M0805"/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="F15" library="littelfuse" deviceset="30R110U" device=""/>
+<part name="F15" library="littelfuse" deviceset="30R110U" device="LORHO" value="30R110ULORHO"/>
 <part name="P+31" library="supply1" deviceset="+5V" device=""/>
 <part name="U2" library="cui" deviceset="VHB150W" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="P+25" library="supply1" deviceset="+5V" device=""/>
-<part name="F14" library="littelfuse" deviceset="30R110U" device=""/>
+<part name="F14" library="littelfuse" deviceset="30R110U" device="LORHO" value="30R110ULORHO"/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="U7" library="pololu" deviceset="RELAY" device=""/>
