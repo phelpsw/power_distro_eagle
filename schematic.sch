@@ -1431,6 +1431,16 @@ Source: Samtec SSW.pdf</description>
 <rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 </package>
+<package name="2920L">
+<smd name="P$1" x="-3.3" y="0" dx="3" dy="5.3" layer="1"/>
+<smd name="P$2" x="3.3" y="0" dx="3" dy="5.3" layer="1"/>
+<wire x1="-3.365" y1="-2.4" x2="-3.365" y2="2.4" width="0.127" layer="21"/>
+<wire x1="-3.365" y1="2.4" x2="3.365" y2="2.4" width="0.127" layer="21"/>
+<wire x1="3.365" y1="2.4" x2="3.365" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="3.365" y1="-2.4" x2="-3.365" y2="-2.4" width="0.127" layer="21"/>
+<text x="-3.81" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -1496,6 +1506,15 @@ Source: Samtec SSW.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="2920L" package="2920L">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="30R110U">
@@ -1521,6 +1540,15 @@ Source: Samtec SSW.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="2920L" package="2920L">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="30R250U">
@@ -1541,6 +1569,15 @@ Source: Samtec SSW.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2920L" package="2920L">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9809,7 +9846,6 @@ Source: www.kingbright.com</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="F9" library="littelfuse" deviceset="30R400U" device="LORHO" value="30R400ULORHO"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="F10" library="littelfuse" deviceset="30R110U" device="LORHO" value="30R110ULORHO"/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
@@ -9837,7 +9873,6 @@ Source: www.kingbright.com</description>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="F28" library="littelfuse" deviceset="30R110U" device="LORHO" value="30R110ULORHO"/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
-<part name="F11" library="littelfuse" deviceset="30R250U" device=""/>
 <part name="P+12" library="supply1" deviceset="+24V" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="U11" library="pololu" deviceset="MED_MOSFET" device=""/>
@@ -9881,7 +9916,7 @@ Source: www.kingbright.com</description>
 <part name="F12" library="littelfuse" deviceset="30R250U" device="LORHO" value="30R250ULORHO"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
-<part name="F16" library="littelfuse" deviceset="30R250U" device=""/>
+<part name="F16" library="littelfuse" deviceset="30R250U" device="2920L" value="30R250U2920L"/>
 <part name="P+28" library="supply1" deviceset="+24V" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+29" library="supply1" deviceset="+5V" device=""/>
@@ -9900,24 +9935,24 @@ Source: www.kingbright.com</description>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="P+36" library="supply1" deviceset="+5V" device=""/>
 <part name="U8" library="pololu" deviceset="RELAY" device=""/>
-<part name="F21" library="littelfuse" deviceset="30R160U" device=""/>
-<part name="F23" library="littelfuse" deviceset="30R160U" device=""/>
+<part name="F21" library="littelfuse" deviceset="30R160U" device="2920L" value="30R160U2920L"/>
+<part name="F23" library="littelfuse" deviceset="30R160U" device="2920L" value="30R160U2920L"/>
 <part name="P+4" library="supply1" deviceset="+24V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="U9" library="pololu" deviceset="RELAY" device=""/>
-<part name="F18" library="littelfuse" deviceset="30R160U" device=""/>
-<part name="F19" library="littelfuse" deviceset="30R160U" device=""/>
+<part name="F18" library="littelfuse" deviceset="30R160U" device="2920L" value="30R160U2920L"/>
+<part name="F19" library="littelfuse" deviceset="30R160U" device="2920L" value="30R160U2920L"/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
-<part name="F24" library="littelfuse" deviceset="30R110U" device=""/>
-<part name="F25" library="littelfuse" deviceset="30R110U" device=""/>
-<part name="F27" library="littelfuse" deviceset="30R110U" device=""/>
-<part name="F26" library="littelfuse" deviceset="30R110U" device=""/>
-<part name="F22" library="littelfuse" deviceset="30R110U" device=""/>
-<part name="F20" library="littelfuse" deviceset="30R110U" device=""/>
+<part name="F24" library="littelfuse" deviceset="30R110U" device="2920L" value="30R110U2920L"/>
+<part name="F25" library="littelfuse" deviceset="30R110U" device="2920L" value="30R110U2920L"/>
+<part name="F27" library="littelfuse" deviceset="30R110U" device="2920L" value="30R110U2920L"/>
+<part name="F26" library="littelfuse" deviceset="30R110U" device="2920L" value="30R110U2920L"/>
+<part name="F22" library="littelfuse" deviceset="30R110U" device="2920L" value="30R110U2920L"/>
+<part name="F20" library="littelfuse" deviceset="30R110U" device="2920L" value="30R110U2920L"/>
 <part name="J7" library="con-samtec" deviceset="SSW-108-02-S-T" device="RA"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="molex" deviceset="MEGAFIT-4SKT-RA" device=""/>
@@ -9937,6 +9972,7 @@ Source: www.kingbright.com</description>
 <part name="J19" library="jst" deviceset="JST-PA-SMT-RA-4" device=""/>
 <part name="J20" library="jst" deviceset="JST-PA-SMT-RA-4" device=""/>
 <part name="J10" library="jst" deviceset="JST-PA-SMT-RA-4" device=""/>
+<part name="F11" library="littelfuse" deviceset="30R110U" device="2920L" value="30R110U2920L"/>
 </parts>
 <sheets>
 <sheet>
@@ -10024,11 +10060,9 @@ Source: www.kingbright.com</description>
 <instance part="F7" gate="G$1" x="172.72" y="-2.54"/>
 <instance part="F8" gate="G$1" x="172.72" y="-12.7"/>
 <instance part="GND7" gate="1" x="86.36" y="-5.08"/>
-<instance part="F9" gate="G$1" x="172.72" y="-22.86"/>
 <instance part="P+8" gate="1" x="162.56" y="66.04"/>
 <instance part="F10" gate="G$1" x="106.68" y="50.8" rot="R90"/>
 <instance part="P+9" gate="1" x="106.68" y="60.96"/>
-<instance part="F11" gate="G$1" x="73.66" y="-22.86" rot="R90"/>
 <instance part="P+12" gate="1" x="73.66" y="-12.7"/>
 <instance part="GND13" gate="1" x="73.66" y="-45.72"/>
 <instance part="U11" gate="G$1" x="134.62" y="-104.14"/>
@@ -10116,15 +10150,16 @@ Source: www.kingbright.com</description>
 <instance part="J19" gate="G$1" x="-35.56" y="-142.24"/>
 <instance part="J20" gate="G$1" x="-35.56" y="-165.1"/>
 <instance part="J10" gate="G$1" x="271.78" y="-27.94"/>
+<instance part="F11" gate="G$1" x="73.66" y="-22.86" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="+24V" class="0">
 <segment>
-<pinref part="F11" gate="G$1" pin="2"/>
 <pinref part="P+12" gate="1" pin="+24V"/>
 <wire x1="73.66" y1="-15.24" x2="73.66" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="F11" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
@@ -10362,10 +10397,6 @@ Source: www.kingbright.com</description>
 <wire x1="165.1" y1="-12.7" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="-12.7" x2="162.56" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="162.56" y="-2.54"/>
-<pinref part="F9" gate="G$1" pin="1"/>
-<wire x1="165.1" y1="-22.86" x2="162.56" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="-22.86" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="162.56" y="-12.7"/>
 </segment>
 <segment>
 <pinref part="F10" gate="G$1" pin="2"/>
@@ -10701,13 +10732,6 @@ Source: www.kingbright.com</description>
 <label x="241.3" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FAUX_5V" class="0">
-<segment>
-<pinref part="F9" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="-22.86" x2="187.96" y2="-22.86" width="0.1524" layer="91"/>
-<label x="180.34" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="F10" gate="G$1" pin="1"/>
@@ -10762,10 +10786,10 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="F11" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="-30.48" x2="73.66" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-35.56" x2="78.74" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="J11" gate="G$1" pin="1"/>
+<pinref part="F11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$1" class="0">
