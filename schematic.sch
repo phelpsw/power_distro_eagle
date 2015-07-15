@@ -9383,8 +9383,8 @@ Source: www.kingbright.com</description>
 <library name="jst">
 <packages>
 <package name="JST-PA-SMT-RA-2">
-<smd name="GND2" x="-3.55" y="0" dx="2" dy="3.8" layer="1"/>
-<smd name="GND1" x="3.55" y="0" dx="2" dy="3.8" layer="1"/>
+<smd name="GND2" x="-3.55" y="0.2286" dx="2" dy="3.3428" layer="1"/>
+<smd name="GND1" x="3.55" y="0.2286" dx="2" dy="3.3428" layer="1"/>
 <smd name="2" x="-1" y="-4.45" dx="1" dy="2.7" layer="1"/>
 <smd name="1" x="1" y="-4.45" dx="1" dy="2.7" layer="1"/>
 <hole x="3.2" y="-3.25" drill="0.8"/>
@@ -9404,8 +9404,8 @@ Source: www.kingbright.com</description>
 <smd name="3" x="-2" y="-4.45" dx="1" dy="2.7" layer="1"/>
 <smd name="2" x="0" y="-4.45" dx="1" dy="2.7" layer="1"/>
 <smd name="1" x="2" y="-4.45" dx="1" dy="2.7" layer="1"/>
-<smd name="P$4" x="-4.55" y="0" dx="2" dy="3.8" layer="1"/>
-<smd name="P$5" x="4.55" y="0" dx="2" dy="3.8" layer="1"/>
+<smd name="P$4" x="-4.55" y="0.2286" dx="2" dy="3.3428" layer="1"/>
+<smd name="P$5" x="4.55" y="0.2286" dx="2" dy="3.3428" layer="1"/>
 <hole x="4.2" y="-3.25" drill="0.8"/>
 <hole x="-4.7" y="-3.25" drill="0.8"/>
 <hole x="-4.45" y="-3.25" drill="0.8"/>
@@ -9424,8 +9424,8 @@ Source: www.kingbright.com</description>
 <smd name="3" x="-1" y="-4.45" dx="1" dy="2.7" layer="1"/>
 <smd name="2" x="1" y="-4.45" dx="1" dy="2.7" layer="1"/>
 <smd name="1" x="3" y="-4.45" dx="1" dy="2.7" layer="1"/>
-<smd name="P$5" x="-5.55" y="0" dx="2" dy="3.8" layer="1"/>
-<smd name="P$6" x="5.55" y="0" dx="2" dy="3.8" layer="1"/>
+<smd name="P$5" x="-5.55" y="0.2286" dx="2" dy="3.3428" layer="1"/>
+<smd name="P$6" x="5.55" y="0.2286" dx="2" dy="3.3428" layer="1"/>
 <hole x="5.2" y="-3.25" drill="0.8"/>
 <hole x="-5.7" y="-3.25" drill="0.8"/>
 <hole x="-5.45" y="-3.25" drill="0.8"/>
